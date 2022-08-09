@@ -16,7 +16,6 @@ export default function Index () {
 
             <h1 className='text-4xl font-bold text-blue-600 flex items-center justify-center h-1/2 min-h-screen'>
               Hi! I'm Justin. Welcome to my Next.js Boilerplate.</h1>
-            <p>clone, npm i, npm run dev, edit. simple.</p>
             
           </div>
         </main>

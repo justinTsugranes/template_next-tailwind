@@ -2,8 +2,6 @@
 
 ## Next.js, TailwindCSS, Jest, Node.js
 
-Note: Currently getting Hydration errors on runtime
-
 Boilerplate Includes folder for components, data, layouts, utils, pages, and scripts. Not pre-configured for any specific sort of site. Just configured for an all-around development environment.
 
 Here are some of the core dependencies and features:
