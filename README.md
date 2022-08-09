@@ -4,10 +4,12 @@ Next.js
 React.js
 TailwindCSS
 Jest
-Babel
+SWC
 Node.js
 Prettier Plugin
 Heroicons
 PostCSS Purge
 ESLint
-Typscript
+Typscript support
+
+Currently getting Hydration errors on runtime
