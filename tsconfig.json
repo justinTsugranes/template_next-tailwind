@@ -32,7 +32,8 @@
     "test/**/*.test.ts",
     "test/**/*.test.tsx",
     "test/**/test/*",
-    "packages/next/types/webpack.d.ts"
+    "packages/next/types/webpack.d.ts",
+    "jest.config.js"
   ],
   "exclude": ["node_modules"]
 }
