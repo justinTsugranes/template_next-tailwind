@@ -9,7 +9,7 @@ export default function Index () {
     <Layout>
     <div className='h-screen min-h-screen flex-col py-2'>
       <Header >
-          <title>NextJS Tailwind Template</title>
+          <title>NextJS Tailwind Boilerplate</title>
         </Header>
         
         <main>

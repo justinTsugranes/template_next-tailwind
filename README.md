@@ -20,13 +20,15 @@ Here are some of the core dependencies and features:
 
 ### To Use
 
-Click `Use Template` or fork/clone
+Click `Use Template`
 
 Install Dependencies `npm i`
 
 Run Development Server `npm run dev`
 
-Edit site.
+Erase main content of index.js.
+
+Edit info on package.json
 
 #### Components Folder
 
