@@ -18,6 +18,8 @@ Here are some of the core dependencies and features:
 - [PurgeCSS](https://purgecss.com/plugins/postcss.html) - Removed unused CSS.
 - [ESLint](https://eslint.org/) - Find and fix problems in JavaScript
 - [classnames](https://github.com/JedWatson/classnames) - Simple library that lets you toggle class names easily
+- [MDX Ready](https://mdxjs.com/) - Write JSX directly in your markdown files. Use .mdx extension insead of .md
+- [gray-matter](https://github.com/jonschlinkert/gray-matter) - For adding frontmatter to MDX files
 
 ### To Use
 
@@ -35,6 +37,7 @@ Edit info on package.json
 
 - Header
 - Footer
+- Navbar
 - SEO
 
 #### Data
@@ -43,7 +46,8 @@ Edit info on package.json
 
 #### Layouts
 
--
+- layout.js
+- layout.module.css - For Using CSS Module
 
 #### Lib
 
@@ -51,11 +55,17 @@ Edit info on package.json
 
 #### Pages
 
--
+- \_app.js
+- \_document.js
+- index.js
+- [posts]
+  - blank mdx-sample page with links to next/mdx info.
+  - Gray Matter installed. For adding graymatter to pages, neen to add a const requirement
 
 #### Public
 
--
+- [Images Folder]
+- Use for all static content like .jpgs
 
 #### Scripts
 
@@ -63,7 +73,7 @@ Edit info on package.json
 
 #### Styles
 
--
+- global.css
 
 #### Config Files & JSON
 

@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import Layout from '../layouts/layout'
+import { MDXProvider } from '@mdx-js/react'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 

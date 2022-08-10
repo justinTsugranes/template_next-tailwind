@@ -15,9 +15,12 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "@mdx-js/loader": "^2.1.2",
+    "@next/mdx": "^12.2.4",
     "@tailwindcss/typography": "^0.5.4",
     "classnames": "^2.3.1",
     "eslint-plugin-prettier": "^4.2.1",
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "next-remote-watch": "1.0.0",
     "react": "latest",
