@@ -16,7 +16,6 @@ Here are some of the core dependencies and features:
 - [Heroicons](https://heroicons.com/) - Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS for React and Vue
 - [PurgeCSS](https://purgecss.com/plugins/postcss.html) - Removed unused CSS.
 - [ESLint](https://eslint.org/) - Find and fix problems in JavaScript
-- [Typscript](https://www.typescriptlang.org/)
 
 ### To Use
 
@@ -73,4 +72,3 @@ prettier.config
 tailwind.config
 eslintrc.json
 package.json
-tsconfig.json
