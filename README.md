@@ -11,7 +11,7 @@ Here are some of the core dependencies and features:
 - [TailwindCSS](https://tailwindcss.com/) - PostCSS Framework
 - [Jest](https://jestjs.io/) - JavaScript Testing Framework
 - [SWC](https://swc.rs/) - For minificiation. Included in `create-next-app`. 20x faster than Babel on a single thread and 70x faster on four cores.
-- [SWR](https://swr.vercel.app/) - React Hooks for Data Fetching
+- [SWR](https://swr.vercel.app/) - React Hooks for Data Fetching. Highly recommended if you’re fetching data on the client side. It handles caching, revalidation, focus tracking, refetching on interval, and more.
 - [Node.js](https://nodejs.dev/) - Cross-platform JavaScript run-time environment
 - [Prettier Plugin](https://prettier.io/) - Formatting
 - [Heroicons](https://heroicons.com/) - Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS for React and Vue
@@ -19,7 +19,8 @@ Here are some of the core dependencies and features:
 - [ESLint](https://eslint.org/) - Find and fix problems in JavaScript
 - [classnames](https://github.com/JedWatson/classnames) - Simple library that lets you toggle class names easily
 - [MDX Ready](https://mdxjs.com/) - Write JSX directly in your markdown files. Use .mdx extension insead of .md
-- [gray-matter](https://github.com/jonschlinkert/gray-matter) - For adding frontmatter to MDX files
+- [gray-matter](https://github.com/jonschlinkert/gray-matter) - For adding Frontmatter to MDX files
+- [robots.txt](https://developers.google.com/search/docs/advanced/robots/intro) - Tells search engine crawlers which URLs the crawler can access on your site.
 
 ### To Use
 
@@ -33,12 +34,16 @@ Erase main content of index.js.
 
 Edit info on package.json
 
+If you don't want any sort of _blog/post_ page routing, you can delete the "pages/posts". Could delete the MDX Dependencies and Gray-Matter also, if you aren't going to use .mdx files at all.
+
+If you don't want Module CSS import, then you can delete "layouts/layout.module.css" and "styles/utils.module.css". Then, remove the imports from the top of "layouts/layouts.js"
+
 #### Components Folder
 
-- Header
-- Footer
-- Navbar
-- SEO
+- Header: Blank page
+- Footer: Blank page
+- Navbar: Blank page
+- SEO: Blank page
 
 #### Data
 
@@ -47,7 +52,7 @@ Edit info on package.json
 #### Layouts
 
 - layout.js
-- layout.module.css - For Using CSS Module
+- layout.module.css - For CSS Modules
 
 #### Lib
 
@@ -73,7 +78,8 @@ Edit info on package.json
 
 #### Styles
 
-- global.css
+- global.css - For Global Styles
+- utils.module.css - for CSS Modules
 
 #### Config Files & JSON
 
@@ -84,3 +90,5 @@ prettier.config
 tailwind.config
 eslintrc.json
 package.json
+tsconfig.json - currently only using typescript in jest.config
+note: will change jest config to .js
