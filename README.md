@@ -11,6 +11,7 @@ Here are some of the core dependencies and features:
 - [TailwindCSS](https://tailwindcss.com/) - CSS Framework
 - [Jest](https://jestjs.io/) - JavaScript Testing Framework
 - [SWC](https://swc.rs/) - For minificiation. Included in `create-next-app`. 20x faster than Babel on a single thread and 70x faster on four cores.
+- [SWR](https://swr.vercel.app/) - React Hooks for Data Fetching
 - [Node.js](https://nodejs.dev/) - Cross-platform JavaScript run-time environment
 - [Prettier Plugin](https://prettier.io/) - Formatting
 - [Heroicons](https://heroicons.com/) - Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS for React and Vue
