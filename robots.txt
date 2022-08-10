@@ -1,0 +1,14 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.example.com/sitemap.xml
+
+
+/*
+1. The user agent named Googlebot is not allowed to crawl any URL that starts with http://example.com/nogooglebot/.
+2. All other user agents are allowed to crawl the entire site. This could have been omitted and the result would be the same; the default behavior is that user agents are allowed to crawl the entire site.
+3. The site's sitemap file is located at http://www.example.com/sitemap.xml.
+*/

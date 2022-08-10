@@ -1,15 +1,17 @@
 import * as React from 'react'
-import Footer from '../components/Footer';
-import Layout from '../layouts/Layout'
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+import SEO from '../components/SEO';
+import Layout from '../layouts/layout'
+import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-export default function Index () {
+export default function Index() {
   return (
     <Layout>
     <div className='h-screen min-h-screen flex-col py-2'>
       <Header >
-          <title>NextJS Tailwind Boilerplate</title>
+          <title>{siteTitle}</title>
         </Header>
         
         <main>

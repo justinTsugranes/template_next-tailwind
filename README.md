@@ -8,7 +8,7 @@ Here are some of the core dependencies and features:
 
 - [Next.js](https://nextjs.org/) - The React Framework
 - [React.js](https://reactjs.org/) - JavaScript Library For Building User Interfaces
-- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
+- [TailwindCSS](https://tailwindcss.com/) - PostCSS Framework
 - [Jest](https://jestjs.io/) - JavaScript Testing Framework
 - [SWC](https://swc.rs/) - For minificiation. Included in `create-next-app`. 20x faster than Babel on a single thread and 70x faster on four cores.
 - [SWR](https://swr.vercel.app/) - React Hooks for Data Fetching
@@ -17,6 +17,7 @@ Here are some of the core dependencies and features:
 - [Heroicons](https://heroicons.com/) - Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS for React and Vue
 - [PurgeCSS](https://purgecss.com/plugins/postcss.html) - Removed unused CSS.
 - [ESLint](https://eslint.org/) - Find and fix problems in JavaScript
+- [classnames](https://github.com/JedWatson/classnames) - Simple library that lets you toggle class names easily
 
 ### To Use
 
