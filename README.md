@@ -2,7 +2,7 @@
 
 ## Next.js, TailwindCSS, Jest, Node.js
 
-Boilerplate Includes folder for components, data, layouts, utils, pages, and scripts. Not pre-configured for any specific sort of site. Just setup for an all-around development environment without having to delete any useless code. There is a default 404 page. I've included dependencies for MDX (gray-matter, remark, remark mdx, date-fns), but they aren't used on any of the pages and can be removed from the json if unnecessary for the project. Testing is setup for Jest and Cypress
+Boilerplate Includes folder for components, data, layouts, utils, pages, and scripts. Not pre-configured for any specific sort of site. Just setup for an all-around development environment without having to delete any useless code. There is a default 404 page. I've included dependencies for MDX (gray-matter, remark, remark mdx, date-fns), but they aren't used on any of the pages and can be removed from the json if unnecessary for the project. Testing is setup for Jest and Cypress.
 
 Here are some of the core dependencies and features:
 

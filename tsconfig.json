@@ -26,6 +26,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.js",
     "pages/index.tsx",
     "pages/_app.js",
     "test/jest.d.ts",
