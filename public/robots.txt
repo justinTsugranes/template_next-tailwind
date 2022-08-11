@@ -1,14 +1,14 @@
+# Block all crawlers for /accounts
+User-agent: *
+Disallow: /accounts
+
+#  Googlebot is not allowed to crawl any URL that starts with http://example.com/nogooglebot/
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
+# Allow all crawlers - All other user agents are allowed to crawl the entire site.
 User-agent: *
 Allow: /
 
-Sitemap: http://www.example.com/sitemap.xml
-
-
-/*
-1. The user agent named Googlebot is not allowed to crawl any URL that starts with http://example.com/nogooglebot/.
-2. All other user agents are allowed to crawl the entire site. This could have been omitted and the result would be the same; the default behavior is that user agents are allowed to crawl the entire site.
-3. The site's sitemap file is located at http://www.example.com/sitemap.xml.
-*/
+# The site's sitemap file is located at:
+Sitemap: http://www.SITE.com/sitemap.xml

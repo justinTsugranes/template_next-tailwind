@@ -24,6 +24,7 @@ Here are some of the core dependencies and features:
   - [Remark](https://www.npmjs.com/package/remark-package-dependencies) - Inject to markdown the list of dependencies of your package
   - [Remark MDX](https://www.npmjs.com/package/remark-mdx) - Remark plugin to support the MDX syntax
   - [date-fns](https://date-fns.org/v2.16.1/docs/format) - Return the formatted date string in the given format
+- [site-map](https://github.com/iamvishnusankar/next-sitemap) - Sitemap generator for next.js. Generate sitemap(s) and robots.txt for all static/pre-rendered/dynamic/server-side pages.
 - [robots.txt](https://developers.google.com/search/docs/advanced/robots/intro) - Tells search engine crawlers which URLs the crawler can access on your site.
 
 ### To Use
