@@ -2,14 +2,15 @@
 
 ## Next.js, TailwindCSS, Jest, Node.js
 
-Boilerplate Includes folder for components, data, layouts, utils, pages, and scripts. Not pre-configured for any specific sort of site. Just configured for an all-around development environment.
+Boilerplate Includes folder for components, data, layouts, utils, pages, and scripts. Not pre-configured for any specific sort of site. Just setup for an all-around development environment without having to delete any useless code. There is a default 404 page. I've included dependencies for MDX (gray-matter, remark, remark mdx, date-fns), but they aren't used on any of the pages and can be removed from the json if unnecessary for the project. Testing is setup for Jest and Cypress
 
 Here are some of the core dependencies and features:
 
 - [Next.js](https://nextjs.org/) - The React Framework
 - [React.js](https://reactjs.org/) - JavaScript Library For Building User Interfaces
 - [TailwindCSS](https://tailwindcss.com/) - PostCSS Framework
-- [Jest](https://jestjs.io/) - JavaScript Testing Framework
+- [Jest](https://jestjs.io/) - JavaScript Testing Framework that uses a fake DOM for unit testing
+- [Cypress](https://www.cypress.io/) - Cypress is a test runner that uses a browser and is used for End-to-End (E2E) and Integration Testing.
 - [SWC](https://swc.rs/) - For minificiation. Included in `create-next-app`. 20x faster than Babel on a single thread and 70x faster on four cores.
 - [SWR](https://swr.vercel.app/) - React Hooks for Data Fetching. Highly recommended if you’re fetching data on the client side. It handles caching, revalidation, focus tracking, refetching on interval, and more.
 - [Node.js](https://nodejs.dev/) - Cross-platform JavaScript run-time environment
