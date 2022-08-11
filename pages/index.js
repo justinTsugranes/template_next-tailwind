@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Layout from '../layouts/layout'
+import Layout from 'layouts/layout';
 import Link from 'next/link'
 
 export default function Index() {
