@@ -19,7 +19,10 @@ Here are some of the core dependencies and features:
 - [ESLint](https://eslint.org/) - Find and fix problems in JavaScript
 - [classnames](https://github.com/JedWatson/classnames) - Simple library that lets you toggle class names easily
 - [MDX Ready](https://mdxjs.com/) - Write JSX directly in your markdown files. Use .mdx extension insead of .md
-- [gray-matter](https://github.com/jonschlinkert/gray-matter) - For adding Frontmatter to MDX files
+  - [gray-matter](https://github.com/jonschlinkert/gray-matter) - For adding Frontmatter to MDX files
+  - [Remark](https://www.npmjs.com/package/remark-package-dependencies) - Inject to markdown the list of dependencies of your package
+  - [Remark MDX](https://www.npmjs.com/package/remark-mdx) - Remark plugin to support the MDX syntax
+  - [date-fns](https://date-fns.org/v2.16.1/docs/format) - Return the formatted date string in the given format
 - [robots.txt](https://developers.google.com/search/docs/advanced/robots/intro) - Tells search engine crawlers which URLs the crawler can access on your site.
 
 ### To Use
@@ -64,8 +67,11 @@ If you don't want Module CSS import, then you can delete "layouts/layout.module.
 - \_document.js
 - index.js
 - [posts]
-  - blank mdx-sample page with links to next/mdx info.
-  - Gray Matter installed. For adding graymatter to pages, neen to add a const requirement
+  - Blank mdx-sample page with links to next/mdx info.
+    - Gray Matter installed. For adding graymatter to pages, neen to add a const requirement
+  - [id].js page - Generates static pages from the Posts directory
+    - There is some formatting in the Post object that pulls in formatting from styles/utils.module.css
+  - Date formatting is automatic from date-fns and has a 'data'.js' file in the components directory.
 
 #### Public
 
@@ -80,6 +86,7 @@ If you don't want Module CSS import, then you can delete "layouts/layout.module.
 
 - global.css - For Global Styles
 - utils.module.css - for CSS Modules
+  - Currently only using this in 'posts'
 
 #### Config Files & JSON
 
