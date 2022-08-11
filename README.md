@@ -37,10 +37,6 @@ Erase main content of index.js.
 
 Edit info on package.json
 
-If you don't want any sort of _blog/post_ page routing, you can delete the "pages/posts". Could delete the MDX Dependencies and Gray-Matter also, if you aren't going to use .mdx files at all.
-
-If you don't want Module CSS import, then you can delete "layouts/layout.module.css" and "styles/utils.module.css". Then, remove the imports from the top of "layouts/layouts.js"
-
 #### Components Folder
 
 - Header: Blank page
@@ -55,7 +51,6 @@ If you don't want Module CSS import, then you can delete "layouts/layout.module.
 #### Layouts
 
 - layout.js
-- layout.module.css - For CSS Modules
 
 #### Lib
 
@@ -66,12 +61,7 @@ If you don't want Module CSS import, then you can delete "layouts/layout.module.
 - \_app.js
 - \_document.js
 - index.js
-- [posts]
-  - Blank mdx-sample page with links to next/mdx info.
-    - Gray Matter installed. For adding graymatter to pages, neen to add a const requirement
-  - [id].js page - Generates static pages from the Posts directory
-    - There is some formatting in the Post object that pulls in formatting from styles/utils.module.css
-  - Date formatting is automatic from date-fns and has a 'data'.js' file in the components directory.
+- /api
 
 #### Public
 
@@ -84,9 +74,7 @@ If you don't want Module CSS import, then you can delete "layouts/layout.module.
 
 #### Styles
 
-- global.css - For Global Styles
-- utils.module.css - for CSS Modules
-  - Currently only using this in 'posts'
+- global.css - For Global Styles using TailwindCSS
 
 #### Config Files & JSON
 
@@ -98,4 +86,51 @@ tailwind.config
 eslintrc.json
 package.json
 tsconfig.json - currently only using typescript in jest.config
-note: will change jest config to .js
+
+- note: will change jest config to .js
+
+  "dependencies": {
+  "@heroicons/react": "^1.0.6",
+  "@mdx-js/loader": "^2.1.2",
+  "@next/mdx": "^12.2.4",
+  "@tailwindcss/typography": "^0.5.4",
+  "classnames": "^2.3.1",
+  "date-fns": "^2.29.1",
+  "eslint-plugin-prettier": "^4.2.1",
+  "gray-matter": "^4.0.3",
+  "next": "latest",
+  "next-remote-watch": "1.0.0",
+  "react": "latest",
+  "react-dom": "latest",
+  "react-is": "^17.0.2",
+  "react-router-dom": "^6.3.0",
+  "remark": "^14.0.2",
+  "remark-html": "^15.0.1",
+  "remark-mdx": "^2.1.2",
+  "styled-components": "^5.2.3",
+  "swr": "^1.3.0",
+  "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+  "@fullhuman/postcss-purgecss": "^4.1.3",
+  "@types/jest": "^28.1.6",
+  "@types/node": "^18.6.5",
+  "@types/react": "^18.0.17",
+  "@types/styled-components": "5.1.25",
+  "autoprefixer": "^10.4.8",
+  "eslint": "^8.2.0",
+  "eslint-config-airbnb": "19.0.4",
+  "eslint-config-next": "12.2.4",
+  "eslint-config-prettier": "^8.5.0",
+  "eslint-plugin-import": "^2.25.3",
+  "eslint-plugin-jsx-a11y": "^6.5.1",
+  "eslint-plugin-react": "^7.28.0",
+  "eslint-plugin-react-hooks": "^4.3.0",
+  "jest": "^28.1.3",
+  "postcss": "^8.4.16",
+  "postcss-preset-env": "^7.7.2",
+  "prettier": "^2.7.1",
+  "prettier-plugin-tailwindcss": "^0.1.13",
+  "tailwindcss": "^3.1.8",
+  "ts-jest": "^28.0.7",
+  "typescript": "^4.7.4"
