@@ -28,7 +28,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "gray-matter": "^4.0.3",
     "next": "latest",
-    "next-remote-watch": "1.0.0",
+    "next-remote-watch": "2.0.0",
     "next-seo": "^5.5.0",
     "react": "latest",
     "react-dom": "latest",
